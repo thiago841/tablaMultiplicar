@@ -4,7 +4,10 @@ using namespace std;
 
 int main() {
 
-    int numero = 5;
+    int numero;
+
+    cout << "Ingrese un numero: ";
+    cin >> numero;
 
     for (int i=1; i<=10; i++) {
 
